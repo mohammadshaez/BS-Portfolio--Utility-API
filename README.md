@@ -1,4 +1,4 @@
-Bootstrap 5 project - Portfolio with Utility API
+Bootstrap 5 static project - Portfolio with Utility API
 * Custom classes
 * Sass
 * Html
