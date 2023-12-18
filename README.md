@@ -1,5 +1,6 @@
 Bootstrap 5 static project - Portfolio with Utility API
 * Custom classes
+* Responsive
 * Sass
 * Html
 * Css
