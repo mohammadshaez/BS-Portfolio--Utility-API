@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Roboto:wght@100;300;400;500&display=swap');
+
+.roboto {
+    font-family: roboto, cursive;
+}
+
+.lato {
+    font-family: lato, cursive;
+}
+
+$utilities: () !default;
+$utilities: map-merge(
+  $utilities,
+  (
+    "font-size": (
+      property: font-size,
+      class: fs-custom,
+      values: (
+        1: 1rem,
+        1_5: 1.5rem,
+        2: 2rem,
+        3: 3rem,
+        4: 4rem,
+      ),
+    )
+  )
+);
